@@ -1,22 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Montserrat:wght@100&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Montserrat:wght@100&family=Poppins&family=Raleway&display=swap');
 *{
     box-sizing: border-box;
 }
 
 body{
-    
+    background-color: #ebb0b0;
+    display: block;
+
 }
 
 
 .title{
     display: flex;
     justify-content: center;
+    font-family: Butterfly Kids;
+    font-size:xx-large;
 }
+
 button {
-    margin: 40px;
+    margin: 20px;
     padding: 20px;
     border-radius: 5px;
     background-color: whitesmoke;
+    border-style: none;
+    font-family: Poppins;
 }
+
+button:hover{
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px
+    #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+
+}
+
+
 
 .settings{
     display: flex;
@@ -27,10 +45,17 @@ button {
 
 .content{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
+    justify-content: space-around;
+    justify-self: center;
+    align-items:center;
+    background-color: #1b0e30;
     padding-bottom: 50px;
+    padding-top: 50px;
+    margin-left: 550px;
+    margin-top: 20px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
     
 }
 .container{
@@ -38,15 +63,20 @@ button {
     width: 500px; /* Adjust as needed */
     height: 500px; /* Adjust as needed */
     gap: 0px;
-    border: 1px solid black;
     background-color: white;
     overflow: hidden;
-    
 }
 
+.footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+
+}
 .cell{
     display: block;
-    border: 1px solid black;
+    border: 0.2px solid rgb(167, 167, 167);
     margin: 0;
     width: 100%; 
     height: 100%; 
@@ -54,13 +84,32 @@ button {
 
 label{
     color: whitesmoke;
+    font-family: Poppins;
 }
 span{
     color: whitesmoke;
+    font-family: Poppins;
 }
 
 p{
     color: whitesmoke;
+    font-family: Poppins;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#gh-logo{
+    width: 35px;
+    height: 35px;
+    margin-bottom: -9px;
+    margin-right: 10px;
 }
 
 
