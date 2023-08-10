@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <script src=javascript.js defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title"><h1>Etch-a-Sketch</h1></div>
+    <div class="content">
+        <div class="settings">
+            <button class="colorMode">Black</button>
+            <button class="rainbowMode">Rainbow</button>
+            <button class="eraser">Eraser</button>
+            <button class="clear">Clear</button>
+            <input type="range" class="size" name="Grid Size" min="2" max="62" value="16">
+            <label for="Grid Size">Grid Size</label>
+            <p>Size: <span id="sliderValue">16</span></p>
+        </div>
+        <div id="container" class="container"></div>
+        
+    </div>  
+</body>
+</html>
