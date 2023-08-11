@@ -6,7 +6,7 @@ This project is part of the Odin Project Curriculum, it is a browser version of 
 
 ## Learnings
 
-This was a very fun and interesing way of practicing my skills manipulating the DOM and styling the web page. This certainly was a milestone in my learning foundations of Javascript as well.
+This was a very fun and interesting way of practicing my skills manipulating the DOM and styling the web page. This certainly was a milestone in my learning foundations of Javascript as well.
 
 
 
@@ -27,7 +27,7 @@ since the main functionality works by hovering the mouse pointer.
 ## Functionalities
 
 - Paint the board just by hovering your mouse
-- Use the color black to do so, or maybe something more colourful, like random colors
+- Use the color black to do so, or maybe something more colorful, like random colors
 - Change the grid size so you can make your paintings in a higher resolution
 - Got something wrong? Just erase it
 - Got a lot of things wrong? Just reset it
