@@ -20,7 +20,8 @@ Vanilla Javascript with pure CSS and HTML.
 
 ## Demo
 
-[Access the live demo here.](https://angeleranz.github.io/etch-a-sketch/)
+[Access the live demo here.](https://angeleranz.github.io/etch-a-sketch/) Please note that this project is intended to be viewed and used in a desktop browser,
+since the main functionality works by hovering the mouse pointer.
 
 
 ## Functionalities
