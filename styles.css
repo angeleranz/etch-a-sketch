@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Montserrat:wght@100&family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Montserrat:wght@100&family=Poppins&family=Raleway&display=swap');
 *{
-    box-sizing: border-box;
+   
 }
 
 body{
     background-color: #ebb0b0;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    position: absolute;
+    
 
 }
 
@@ -46,25 +51,27 @@ button:hover{
 .content{
     display: flex;
     justify-content: space-around;
-    justify-self: center;
-    align-items:center;
+    align-content: center;
     background-color: #1b0e30;
     padding-bottom: 50px;
     padding-top: 50px;
-    margin-left: 550px;
-    margin-top: 20px;
-    width: 800px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 10px;
+    width: 700px;
     border-radius: 10px;
     box-shadow: 10px 10px;
-    
+    border: 0;
+    flex: 1;
 }
 .container{
     display: grid;
-    width: 500px; /* Adjust as needed */
-    height: 500px; /* Adjust as needed */
+    width: 500px; 
+    height: 500px; 
     gap: 0px;
     background-color: white;
     overflow: hidden;
+
 }
 
 .footer{
@@ -75,8 +82,8 @@ button:hover{
 
 }
 .cell{
-    display: block;
-    border: 0.2px solid rgb(167, 167, 167);
+    
+    border: rgb(167, 167, 167);
     margin: 0;
     width: 100%; 
     height: 100%; 
