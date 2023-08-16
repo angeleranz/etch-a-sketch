@@ -7,6 +7,7 @@ const whiteButton = document.querySelector('.colorModeWhite');
 const rainbowButton = document.querySelector('.rainbowMode');
 const eraserButton = document.querySelector('.eraser');
 const resetButton = document.querySelector('.reset');
+const checkbox = document.getElementById('toggle');
 
 
 
@@ -106,4 +107,18 @@ function defaultGrid() {
         createCells();
     }
 }
+
+checkbox.addEventListener('change', function() {   
+    let cells = document.querySelectorAll('.cell');
+    
+    if(this.checked) {
+        cells.forEach(function(cell) {
+            cell.style.border = 'solid 1px rgb(167, 167, 167)';
+        });
+    } else {
+        cells.forEach(function(cell) {
+            cell.style.border = "";
+        });
+    }
+});
 
